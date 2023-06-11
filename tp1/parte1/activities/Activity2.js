@@ -62,6 +62,6 @@ const styles = StyleSheet.create({
   },
   inputDisplay: {
     fontSize: 18,
-    paddingLeft: 10
+    paddingLeft: 10,
   },
 });

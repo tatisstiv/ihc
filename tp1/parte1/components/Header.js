@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Header({ activityNumber }) {
   return (
@@ -10,13 +10,13 @@ export default function Header({ activityNumber }) {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#3a4ca4',
-    height: 100
+    backgroundColor: "#3a4ca4",
+    height: 100,
   },
   text: {
-    color: '#fff',
-    paddingTop: 55, 
+    color: "#fff",
+    paddingTop: 55,
     paddingLeft: 20,
-    fontSize: 20
-  }
+    fontSize: 20,
+  },
 });
